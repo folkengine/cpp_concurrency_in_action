@@ -29,12 +29,12 @@ include(FetchContent)
 #-------------------
 # set common include folder for module
 #-------------------
-set(COMMON_INCLUDES ${PROJECT_SOURCE_DIR}/include)
+# set(COMMON_INCLUDES ${PROJECT_SOURCE_DIR}/include)
 
 # uncomment this line to enable coverage measurements using gcov
 #set(CMAKE_CXX_FLAGS "--coverage")
 
 enable_testing()
-include_directories(${COMMON_INCLUDES})
+
 add_subdirectory(src)
 add_subdirectory(test)

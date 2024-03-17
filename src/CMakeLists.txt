@@ -1,4 +1,2 @@
-set(SRC_LIB_NAME src)
-add_library(${SRC_LIB_NAME})
-target_sources(${SRC_LIB_NAME} PRIVATE example.cpp)
-target_include_directories(${SRC_LIB_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+add_executable(listing_1_1 listing_1.1.cpp)
+add_executable(listing_2_1 listing_2.1.cpp)

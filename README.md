@@ -1,27 +1,22 @@
-[![Build and Test](https://github.com/devplaybooks/cpp_cmake_gtest/actions/workflows/test.yml/badge.svg)](https://github.com/devplaybooks/cpp_cmake_gtest/actions/workflows/test.yml)
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+[![Build and Test](https://github.com/folkengine/cpp_concurrency_in_action/actions/workflows/test.yml/badge.svg)](https://github.com/folkengine/cpp_concurrency_in_action/actions/workflows/test.yml)
+[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
 
-# C++ Gtest Playbook
+# Original README.md
 
-C++ template for CMake and Google Test with a custom GitHub [Action](https://github.com/features/actions) and
-[Codespace](https://github.com/features/codespaces).  
+## Companion Source Code for C++ Concurrency in Action 2nd Edition
 
-## Usage
+This repository contains the source code from the second edition of [C++ Concurrency in Action](https://www.cplusplusconcurrencyinaction.com/), by Anthony Williams.
 
-```
-$❯ cmake -S . -B build
-$❯ cmake --build build
-$❯ cd build
-$❯ make test
-$❯ cd ..
-```
+The **listings** folder contains the listings from the book. Each file is named `listing_<chapter-number>.<listing-number>.cpp`, so `listing_1.1.cpp` is the first listing in chapter 1, which is marked as listing 1.1 in the book, and `listing_10.3.cpp` is the third listing in chapter 10, which is marked as listing 10.3 in the book.
+
+The source code is released under the [Boost Software License](https://www.boost.org/LICENSE_1_0.txt).
 
 ## Dependencies
 
 * [CMake](https://cmake.org/)
   * [CPM.make](https://github.com/cpm-cmake/CPM.cmake)
 * [GoogleTest](https://github.com/google/googletest)
-    * [User’s Guide](https://google.github.io/googletest/)
+  * [User’s Guide](https://google.github.io/googletest/)
 
 ## Resources
 
